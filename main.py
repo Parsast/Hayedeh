@@ -41,10 +41,7 @@ def get_top_tracks_Allcountries(artist_Spotify_Id, access_token):
     return top_tracks
     
 
-token = get_spotify_token("c7d8869f7af34cbf8087e1c2e446b38a",
-"dc8c26ca8e1b490bb24dceb701916751")
-Hayedeh = "5b1CDxqOGnXr5M1DUn2XQh"
-top_tracks = get_top_tracks_Allcountries(Hayedeh, token)
+
 # with open('data.json', "w") as j:
 #     json.dump(top_tracks, j)
 

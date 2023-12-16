@@ -112,7 +112,7 @@ def make_csv_all_tracks_artist(artistId, access_token):
             for feature in features:
                 tracks[track][feature] = features[feature]
     df = pd.DataFrame.from_dict(tracks, orient='index')
-    df.to_csv("output.csv")
+    df.to_csv("output")
     print("output saved!")
 
 
